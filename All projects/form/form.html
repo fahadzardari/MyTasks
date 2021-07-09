@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>
+     Have added the script but haven't styled it yet.
+       
+    </h2>
+    <div class="container">
+        <div class="filling-section">
+            <form class="form"  name="myForm">
+               <label for="First-name" >First Name</label>
+               <input type="text" name="Firstname" id="First-name">
+               <label for="Second-Name" >Second Name</label>
+               <input type="text" name="Secondname" id="Second-Name">
+               <label for="Profession" >Profession</label>
+               <select name="Prof" id="Profession-Select">
+                   <option value="Student" selected>Student</option>
+                   <option value="Teacher">Teacher</option>
+                   <option value="Other">Other</option>
+               </select>
+               <div>
+                    <label>Gender</label><br>
+                    <input type="checkbox" name="male" id="Male" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="checkbox" name="fmale" id="Female" value="Female" >
+                    <label for="Female">Female</label>
+               </div>
+               <label  >Few words about yourself</label>
+               <textarea placeholder="Max Words 200" name="About" id="AboutYou" cols="20" rows="10" maxlength="200"></textarea>
+            <button onclick="formsubmit(event);checkbox(event)" type="button"  style="margin-top: 15px; text-align: center;"> Submit </button>
+            </form>
+        </div>
+        
+        <div class="result-section" >
+            <h3 id="Name" >Name:</h3>
+            <h3 id="Profession" ><b>Profession</b></h3>
+            <h3 id="Gender"><b>Gender:</b></h3>
+            <h3 id="About"><b>About:</b></h3>
+        </div>
+        
+        
+      <script src="script.js" >
+          
+
+ 
+      </script>  
+        
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+</html>

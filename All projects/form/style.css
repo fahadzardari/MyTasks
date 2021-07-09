@@ -1,0 +1,59 @@
+html , body {
+    margin: 0;
+    
+    
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.filling-section , .form , .result-section {
+    display: flex;
+    flex-direction: column;
+    color: blue;
+}
+
+.filling-section {
+    background-color: wheat;
+    
+}
+.result-section {
+    background-color: white;
+    color: black;
+    font-size: 22px;
+}
+.filling-section {
+    width: 400px;
+    height: 500px;
+    padding:10px; 
+    
+}
+.result-section {
+    float: right;
+    margin-left: 50px;
+    width: 400px;
+    height: 500px;
+    padding:10px; 
+    
+}
+
+textarea {
+    resize: none;
+}
