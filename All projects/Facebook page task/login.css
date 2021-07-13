@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
 body {
   margin: 0;
   font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
@@ -44,5 +51,73 @@ body {
     color: #fff;
     font-size: 11px;
 }
+
+.contentwrapper {
+  background-color:whitesmoke ;
+  margin:0;
+  height: 800px;
+  width:100%;
+
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  margin: auto;
+}
+
+.leftdisp {
+  width: 450px;
+  margin-right: 45px;
+}
+
+.inputsizehalf {
+  width: 200px;
+  margin-bottom: 15px;
+  height: 25px;
+  border: 1px solid;
+}
+.inputsizefull {
+  width: 405px;
+  margin-bottom: 15px;
+  height: 25px;
+  border: 1px solid;
   
+}
+
+select {
+  margin-block: 15px;
+  padding: 0;
+}
+
+
   
+#signup {
+         
+         background-color: rgb(122, 179, 36);
+         text-align: center;
+         width: 250px;
+         border-radius: 5px;
+         height: 50px;
+         margin-top: 50px;
+         font-size: 25px;
+         color: white;
+         box-shadow: 1px 1px 1px 1px black;
+}
+
+
+
+.blur {
+  color: rgba(0,0,0,0.6);
+  margin:0;
+}
+
+
+.infobtn {
+  border:1px solid grey;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+}

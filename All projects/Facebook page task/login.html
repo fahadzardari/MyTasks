@@ -45,7 +45,7 @@
     <div class="contentwrapper">
         <div class="content">
             <div class="leftdisp">
-                <h2>Facebook helps you connect and share with people you know in your life.</h2>
+                <h3>Facebook helps you connect and share with people you know in your life.</h3>
 
             </div>
             <div class="rightdisp">
@@ -58,7 +58,7 @@
                         <input type="text" placeholder="Email Or Number" class="inputsizefull"> <br>
                         <input type="password" placeholder="New Password" class="inputsizefull"> <br>
                         
-                        <label>Birthday</label> <br>
+                        <p class="blur">Birthday</p> <br>
                         <select>
                             <option value="">Day</option>
                         </select>
@@ -67,17 +67,22 @@
                         </select>
                         <select name="" id="">
                             <option value="">Year</option>
-                        </select> <br>
+                        </select>
+                        <input type="button" class="infobtn" value="?">
+                        <br>
                         
                         
                         
-                        <label>Gender</label> <br>
-                        <label for="Male">Male</label>
-                        <input type="radio" name="Male" >
-                        <label for="Female">Female</label>
-                        <input type="radio" name="Female" > <br>
+                        <p class="blur" >Gender</p> <br>
+                        
+                        <input  type="radio" name="Male" >
+                        <label class="gender" for="Male">Male</label>
+                        
+                        <input  type="radio" name="Female" > 
+                        <label class="gender" for="Female">Female</label>
+                        <input type="button" class="infobtn" value="?"> <br>
 
-                        <input type="button" value="Sign Up">
+                        <input  type="button" id="signup" value="Sign Up">
 
 
                     </form>
