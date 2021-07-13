@@ -1,0 +1,53 @@
+* {
+    box-sizing:border-box;
+    
+}
+body {
+    margin:0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: scroll;
+    
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.content {
+    color: whitesmoke;
+    width: 650px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+
+#sgnbtn {
+    float: right;
+}
+
+#input {
+    height: 60px;
+    width: 350px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#gtbtn {
+    margin-left: 0px;
+    background-color: tomato;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 150px;
+    height: 59px;
+    border: 1px solid tomato;
+    float:left;
+    margin-top: 51px;
+}
